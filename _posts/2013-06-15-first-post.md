@@ -7,9 +7,8 @@ tags : [scala, webapp]
 
 
 
-#My new blog:
-
 I am going to start adding posts [here on github](http://benjaminjackman.github.io) 
 instead of at [my scalide blog](http://scalide.blogspot.com)
 
-
+```scala
+```

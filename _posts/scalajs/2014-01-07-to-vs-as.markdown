@@ -1,0 +1,12 @@
+2014-01-07-ToVsAs
+
+
+# y.toX or y.asX ?
+
+y.toX Means convert this value y of Type Y into a value of Type X by running some sort of function to convert it.
+toX is used for a large variety of conversions
+
+asX Means cast this type to that type, run-time type checking might be performed
+asX is typically used for Downcasting
+
+## Examples: 

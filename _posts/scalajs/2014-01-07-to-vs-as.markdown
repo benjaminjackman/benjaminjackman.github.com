@@ -1,12 +1,23 @@
-2014-01-07-ToVsAs
+---
+layout: post
+title:  "To Vs As"
+date:   2014-01-07 14:09:15
+categories: jekyll update
+---
 
+`y.toX` Means convert this value y of Type Y into a value of Type X by running some sort of function to convert it.
+<br>
+`toX` is used for a large variety of conversions
 
-# y.toX or y.asX ?
-
-y.toX Means convert this value y of Type Y into a value of Type X by running some sort of function to convert it.
-toX is used for a large variety of conversions
-
-asX Means cast this type to that type, run-time type checking might be performed
-asX is typically used for Downcasting
+`y.asX` Means cast this type to that type, run-time type checking might be performed
+<br>
+`asX` is typically used for Downcasting
 
 ## Examples: 
+
+Here is an example of a `toX` style conversion from the Scala Standard Library
+<pre>
+val y : String = "123"
+y.toInt
+</pre>
+

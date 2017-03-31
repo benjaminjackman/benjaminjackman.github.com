@@ -53,7 +53,7 @@ $text: #74808a;
     ---------------------
 */
 
-@mixin transition($duration: 0.5s, $func: ease, $property: all) {
+@mixin transition($duration: 0.1s, $func: ease, $property: all) {
     transition: #{$duration} #{$func} #{$property};
 }
 
@@ -349,7 +349,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/trading-screens-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -651,6 +651,20 @@ footer {
 
 .project-image {
     float: left;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
+}
+.project:hover .project-image {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+
 }
 
 .project-info {
@@ -707,6 +721,41 @@ footer {
         font-size: 1.2em;
     }
 }
+
+/*
+    -------------------------------
+    ----- 9. Skills Styles -----
+    -------------------------------
+*/
+
+#languages {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
 
 /*
     -------------------------------

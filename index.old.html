@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benjamin Jackman's Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+        rel="stylesheet">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="mobile-menu-open" class="shadow-large">
+  <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+  <div id="mobile-menu-close">
+    <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+  </div>
+  <ul id="menu" class="shadow">
+    <!--<li>-->
+    <!--<a href="#about">About</a>-->
+    <!--</li>-->
+    <li>
+      <a href="#experience">Experience</a>
+    </li>
+    <li>
+      <a href="#education">Education</a>
+    </li>
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="#skills">Skills</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</header>
+<!-- End header -->
+
+<div id="lead">
+  <div id="lead-content">
+    <h1>Benjamin Jackman</h1>
+    <h2>Increasing the efficiency of systems of people and machines.</h2>
+    <br>
+    <a href="resources/Resume.Public.pdf" class="btn-rounded-white">Download
+      Resume</a>
+  </div>
+  <!-- End #lead-content -->
+
+  <div id="lead-overlay"></div>
+
+  <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+  </div>
+  <!-- End #lead-down -->
+</div>
+<!-- End #lead -->
+
+<!--<div id="about">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-4">-->
+<!--<h2 class="heading">About Me</h2>-->
+<!--</div>-->
+<!--<div class="col-md-8">-->
+<!--<p>-->
+<!---->
+<!--</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!-- End #about -->
+
+<div id="experience" class="background-alt">
+  <h2 class="heading">Experience</h2>
+  <div id="experience-timeline">
+    <div data-date="2009 – Present">
+      <h3>CGTA</h3>
+      <h4>Founder, Managing Partner</h4>
+      <p>
+        Set the vision for and oversaw all aspects of the company’s autonomous
+        trading operations, growing to almost 20 employees,
+        while trading in a variety of CME/ESpeed/BrokerTec/CBOE products.
+      </p>
+      <br>
+      <p>
+        Emphasized automation, well-defined procedures,
+        empowering interfaces, robust risk controls, full compliance, and a
+        smarts-over-speed
+        approach to trading.
+      </p>
+      <br>
+      <p>
+        Coordinated firmwide goals with vendors and investors and among our
+        trading, devops/IT, quant/data science, and software engineering teams.
+      </p>
+      <br>
+      <p>
+        Fostered collaboration and communction between and within our teams by
+        introducing standups, continuous delivery,
+        issue tracking, incident reporting, and code/configuration/trade
+        reviews.
+      </p>
+      <br>
+      <p>
+        Wrote well over half a million lines of code in a variety of languages
+        (Scala + ScalaJS, Java, Javascript, Typescript) for our automated
+        trading platform featuring visualizations, easy trader configurability,
+        spoof detection, compliance, and direct connectivity to several
+        exchanges.
+      </p>
+      <br>
+      <p>
+        Implemented a local scaling out to AWS
+        data infrastructure for
+        realtime and historical trade
+        analytics and data science.
+      </p>
+      <br>
+      <p>
+        Automated and improved strategy optimization using machine learning
+        (XGBoost / sklearn) and SVG/WebGL visualizations.
+
+      </p>
+      <br>
+      <p>
+        Designed and wrote a very fast and accurate
+        simulator for FIFO markets
+        (e.g. 1 day of CME Treasury
+        Futures in 1-30+ secs per
+        CPU core).
+      </p>
+      <br>
+      <p>
+        Automated administration of
+        Linux desktops and servers
+        (local, exchange co-located,
+        and AWS EC3) with Ansible.
+      </p>
+    </div>
+
+    <div data-date="2007 – 2009">
+      <h3>EV Financial</h3>
+      <h4>Founder, Managing Partner</h4>
+      <p>
+        Set the vision of and oversaw all aspects of the company’s operations.
+      </p>
+      <br>
+      <p>
+        Designed several profitable algorithmic strategies and developed a Java
+        platform to
+        execute, review, and visualize the trades of those
+        strategies.
+      </p>
+      <br>
+      <p>
+        Taught our traders and engineers to use, support, and further develop
+        this platform to do market making and basis trading across multiple
+        exchanges
+        and products.
+      </p>
+
+    </div>
+
+    <div data-date="2004 – 2006">
+      <h3>Allston Trading</h3>
+      <h4>Trade Developer</h4>
+      <br>
+      <p>
+        Designed and programmed a multi-ECN execution engine in Java.
+      </p>
+      <br>
+      <p>
+        Adapted software and strategies for market making and basis trading FX
+        markets.
+      </p>
+      <br>
+      <p>
+        Wrote C++ marketdata parsers for the ITCH protocol to reduce mean CPU
+        usage to below 1% and significantly decrease latency.
+      </p>
+    </div>
+
+    <div data-date="2003 – 2004">
+      <h3>DRW Trading</h3>
+      <h4>Software Engineer</h4>
+      <p>
+        Designed and wrote a user interace in C++(MFC) dramatically increasing
+        the number of options an individual trader could manage.
+      </p>
+      <br>
+      <p>
+        Wrote an automated delta hedger in C# for options trading.
+      </p>
+    </div>
+  </div>
+
+</div>
+<!-- End #experience -->
+
+<div id="education">
+  <h2 class="heading">Education</h2>
+  <div class="education-block">
+    <h3>University of Illinois, Urbana-Champaign</h3>
+    <span class="education-date">2002</span>
+    <h4>Bachelor of Science in Computer Engineering</h4>
+  </div>
+  <!-- End .education-block -->
+</div>
+<!-- End #education -->
+
+<div id="projects" class="background-alt">
+  <h2 class="heading">Projects</h2>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/cgta-otest.png" width="300" height="300"/>
+        </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>CGTA/otest</h3>
+          <p>
+            A very simple unit test framework written to support both Scala and
+            ScalaJS in a fashion very similar to other Scala unit testing
+            solutions before they were ported over.
+          </p>
+          <a href="https://github.com/cgta/otest">View Project</a>
+        </div>
+        <!-- End .project-info -->
+      </div>
+      <!-- End .project -->
+
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/cgta-open.png" width="300" height="300"/>
+        </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>CGTA/open</h3>
+          <p>
+            An open source collection of Scala libraries used internally by
+            CGTA. Featuring a very handy enumeration class, and serialization
+            library that works in both Scala and ScalaJS.
+
+          </p>
+          <a href="https://github.com/cgta/open">View Project</a>
+        </div>
+        <!-- End .project-info -->
+      </div>
+      <!-- End .project -->
+
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/looty.png" width="300" height="300"/>
+        </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>Looty</h3>
+          <p>
+            A datagrid view to items in player inventories in a popular action
+            RPG packaged as a Google Chrome Extension.
+          </p>
+          <br>
+          <p>
+            Looty was perhaps the very first publicly distributed ScalaJS
+            software project with more than a thousand users.
+          </p>
+          <br>
+          <p>
+            It was originally used to prototype the feasibility of using ScalaJS
+            to make web-based data exploration tools, but grew a loyal set of
+            users in its community and is still used to this day.
+          </p>
+          <a href="https://github.com/benjaminjackman/looty">View Project</a>
+          &nbsp;
+          ❖
+          &nbsp;
+          <a href="https://chrome.google.com/webstore/detail/looty-stash-search-for-pa/ajfbflclpnpbjkfibijekgcombcgehbi">View
+            Store Page</a>
+        </div>
+        <!-- End .project-info -->
+      </div>
+      <!-- End .project -->
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/scalide.jpg" width="300" height="300"/>
+        </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>Scalide</h3>
+          <p>
+            A graphical REPL for Scala. Scalide was written in Swing and was
+            very similar in spirit and style to later tools like IPython /
+            Jupyter Notebooks. It was written in 2008 as a way for our team to
+            learn and explore Scala before more developed tooling existed for
+            the language.
+          </p>
+          <a href="https://github.com/benjaminjackman/scalide">View Project</a>
+        </div>
+        <!-- End .project-info -->
+      </div>
+      <!-- End .project -->
+    </div>
+  </div>
+</div>
+<!-- End #projects -->
+
+<div id="skills">
+  <h2 class="heading">Technologies</h2>
+  <ul>
+    <li>AWS</li>
+    <li>Ansible</li>
+    <li>D3</li>
+    <li>FIX</li>
+    <li>Git</li>
+    <li>Jenkins</li>
+    <li>JQuery</li>
+    <li>Linux</li>
+    <li>MongoDB</li>
+    <li>Node.js</li>
+    <li>PostgreSQL</li>
+    <li>React</li>
+    <li>SBE</li>
+    <li>SBT</li>
+    <li>three.js</li>
+    <li>Webpack</li>
+    <li>XGBoost</li>
+  </ul>
+</div>
+
+<div id="languages">
+  <h2 class="heading">Languages</h2>
+  <br>
+  Proficient:
+  <ul>
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>Scala</li>
+    <li>ScalaJS</li>
+    <li>TypeScript</li>
+  </ul>
+  <br>
+  Will happily remaster:
+  <ul>
+    <li>C++</li>
+    <li>C#</li>
+  </ul>
+  <br>
+  Use frequently as required:
+  <ul>
+    <li>Python</li>
+    <li>BASH</li>
+    <li>SQL</li>
+  </ul>
+</div>
+
+<!-- End #skills -->
+
+<div id="contact">
+  <h2>Get in Touch</h2>
+  <div id="contact-form">
+    <form method="POST" action="https://formspree.io/ben@jackman.biz">
+      <input type="hidden" name="_subject"
+             value="Contact request from personal website"/>
+      <input type="email" name="_replyto" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 copyright">
+        <p>
+          Copyright &copy; 2017 Benjamin Jackman
+        </p>
+      </div>
+      <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+      </div>
+      <div class="col-sm-5 social">
+        <ul>
+          <li>
+            <a href="https://github.com/benjaminjackman" target="_blank"><i
+                class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="http://stackoverflow.com/users/121477/benjaminjackman"
+               target="_blank"><i
+                class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End footer -->
+
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
